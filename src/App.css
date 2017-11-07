@@ -1,0 +1,30 @@
+button {
+  display:block;
+  margin-left: 40%;
+  margin-bottom:10px;
+}
+.container {
+  width:500px;
+  margin:0 auto;
+}
+.menu {
+  text-align: center;
+  font-family: 'Pacifico';
+  display: block;
+  margin: 0 auto;
+  color: lightblue;
+  font-size: 1.2em;
+}
+.tiles {
+  display:flex;
+  flex-wrap:wrap;
+  background: rgba(40,40,40,1)
+    -webkit-radial-gradient(center, rgba(40,80,60,1), rgba(0,20,20,.6));
+  background: rgba(40,40,40,1)
+    -moz-radial-gradient(center, rgba(40,80,60,1), rgba(0,20,20,.6));
+  background: rgba(40,40,40,1)
+    -ms-radial-gradient(center, rgba(40,80,60,1), rgba(0,20,20,.6));
+  background: rgba(40,40,40,1)
+    radial-gradient(center, rgba(40,80,60,1), rgba(0,20,20,.6));
+  background-size: cover;
+}

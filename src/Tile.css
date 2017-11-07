@@ -1,0 +1,17 @@
+.tile {
+  width: 25%;
+  height:90px;
+  font-size:60px;
+  border:1px solid white;
+  display:inline-flex;
+  text-align:center;
+  justify-content: space-around;
+  cursor:pointer;
+  align-items: center;
+  color: rgba(220,220,220,.7);
+  font-family: "Architects Daughter", "Helvetica", "sans-serif";
+}
+p {
+  margin:0;
+  padding:0;
+}
